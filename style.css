@@ -1,0 +1,54 @@
+.container {
+  background-color: rgb(255, 255, 255);
+  padding: 20px 5px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.marker {
+  width: 250px;
+  height: 30px;
+  margin: 10px auto;
+}
+
+.all,
+.piece {
+  display: inline-block;
+}
+
+.all {
+  width: 80px;
+  height: 30px;
+}
+
+.piece {
+  width: 130px;
+  height: 30px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-left: 10px double rgba(0, 0, 0, 0.75);
+}
+
+.red {
+  background: linear-gradient(
+    rgb(253, 119, 119),
+    rgb(255, 0, 0),
+    rgb(61, 2, 2)
+  );
+  box-shadow: 5px 0 30px 0 rgba(196, 18, 18, 0.8);
+}
+
+.green {
+  background: linear-gradient(#26ff00, #2f7813, #032a11);
+  box-shadow: 0 0 30px 0 #48ff00cc;
+}
+
+.blue {
+  background: linear-gradient(
+    hsl(186, 100%, 50%),
+    hsl(223, 74%, 35%),
+    hsl(240, 90%, 15%)
+  );
+  box-shadow: 0 0 20px 0 blue;
+}
